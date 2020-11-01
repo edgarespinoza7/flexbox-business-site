@@ -71,8 +71,8 @@ li {
 }
 
 #cta-banner {
-  background-color: #3b3d38;
-  padding: 1rem 1.2rem;
+  background-color: black;
+  padding: 10px 1.5rem;
   border-radius: 50px;
 }
 
@@ -82,46 +82,48 @@ li {
 }
 
 #break-line {
-  width: 150px;
-  height: 5px;
-  background-color: #3b3d38;
+  width: 100px;
+  height: 3px;
+  background-color: black;
 }
 
 /* Services Section */
 
-#services {
-    
-}
 
-#services-title h2  {
+
+.section-title h2  {
     font-weight: 300;
     font-size: 2.5rem;
     margin: 4rem 0;
     text-align: center;
 }
 
-#kitchen-container {
+.service-container {
     display: flex;
     flex-direction: row;
+    margin: 4rem 0;
 }
 
-.kitchen {
+.service-img {
     width: 50%;
+    min-width: 50%;
 
 }
 
-.kitchen img {
+.service-img img {
     width: 100%;
+    
 } 
 
-.kitchen h2 {
+.service-text h2 {
     margin-top: -10px;
     margin-bottom: 10px;
 }
 
-#kitchen-text {
+.service-text {
     padding-left: 5rem;
     line-height: 1.5;
+    width: 50%;
 }
 
 .title-light {
@@ -151,6 +153,14 @@ li {
     border-radius: 30px;
     margin-top: 30px;
     
+}
+
+
+
+#service-text-left {
+    padding-left: 0;
+    padding-right: 5rem;
+    width: 50%;
 }
 
 /* Media Queries */
