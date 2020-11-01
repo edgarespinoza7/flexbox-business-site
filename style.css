@@ -16,7 +16,8 @@ a {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 /* 2. Header Section */
@@ -51,34 +52,112 @@ li {
 /* Banner Section */
 
 #banner {
-  height: 70vh;
+  height: 50vh;
   background-color: chocolate;
-  color: white;
+  background-image: url('./images/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg');
+  color: black;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("./images/alan-chen-dMB5sBzoTVw-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
 }
 
 #banner h1 {
-  font-size: 3rem;
   margin: 15px 0;
 }
 
 #cta-banner {
-  background-color: #ffffff;
+  background-color: #3b3d38;
   padding: 1rem 1.2rem;
   border-radius: 50px;
 }
 
 #cta-banner a {
-  color: black;
+  color: white;
+
 }
 
 #break-line {
   width: 150px;
   height: 5px;
-  background-color: white;
+  background-color: #3b3d38;
+}
+
+/* Services Section */
+
+#services {
+    
+}
+
+#services-title h2  {
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin: 4rem 0;
+    text-align: center;
+}
+
+#kitchen-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.kitchen {
+    width: 50%;
+
+}
+
+.kitchen img {
+    width: 100%;
+} 
+
+.kitchen h2 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+#kitchen-text {
+    padding-left: 5rem;
+    line-height: 1.5;
+}
+
+.title-light {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: rgb(139, 139, 139);
+}
+
+.title-bold {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.divider {
+    background-color: black;
+    height: 3px;
+    width: 70px;
+    margin: 0;
+}
+
+.learn-more-btn {
+    display: inline-block;
+    padding: 10px 1.5rem;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin-top: 30px;
+    
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1170px) {
+    header {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
 }
