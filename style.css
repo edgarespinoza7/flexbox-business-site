@@ -231,12 +231,40 @@ li:hover {
 
 /* Team Section */
 
-#team-container {
-    width: 100%;
-    height: 600px;
+#team {
     background-color: papayawhip;
 }
 
+#team-title h2 {
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#team-container {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.divider-team {
+    margin: 0 auto;
+}
+
+.team-item {
+    width: 250px;
+    margin: 0 2.5rem;
+}
+
+.team-item img {
+    width: 100%;
+    border-radius: 50%;
+}
 
 /* Media Queries */
 
